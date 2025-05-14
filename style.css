@@ -1,0 +1,118 @@
+@charset "utf-8";
+body{
+  width: 100%;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+    background-color: rgb(187, 253, 253);
+}
+header,nav {
+  padding-left: 5%;
+}
+header,ul{
+  display: flex;
+}
+ul{
+  margin-left: 220%;
+  margin-top: 40px;
+}
+ul li{
+  list-style-type: none;
+  margin-left: 50px;
+}
+h1{
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav{
+  position: relative;
+}
+nav img{
+  width: 75%;
+  opacity: 0.5;
+}
+.NAME{
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+.NAME{
+  text-align: center;
+}
+.NAME h1{
+  font-size: 50px;
+    line-height: 1.0rem;
+}
+.deta{
+  font-weight: bold;
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+main{
+  background-color: rgb(187, 253, 253);
+  padding: 40px;
+}
+.contena{
+  background-color: white;
+
+}
+main h1{
+  text-align: center;
+  padding-top: 2%;
+}
+.main_img img{
+  width: 50%;
+  margin-left: 24%;
+}
+.flex_box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/*.flex_box img{
+  margin-left: 5%;
+  width: 23%;
+  padding: 2%;
+}*/
+.con_img{
+  width: 30%;
+  /*padding-left: 2%;*/
+}
+.con_img img{
+  width: 80%;
+  margin-left: 30px;
+}
+.m_2{
+  background-color: white;
+}
+.c:hover{
+  background-color: white;
+}
+.cent{
+  text-align: center;
+} 
+.skill_con{
+margin: 0;
+padding-left: 23%;
+}
+.cg{
+  background-color:rgb(187, 253, 253);
+}
+.white{
+  background-color: white;
+  text-align: center;
+}
+.white img{
+  width: 2%;
+  padding-right: 0.5%;
+  padding-top: 0.5%;
+}
+.border{
+  text-decoration: underline;
+}
